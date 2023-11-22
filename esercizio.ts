@@ -64,3 +64,11 @@ console.log(
 );
 console.log("Tasso irpef", avvocato1.getTasseIrpef());
 console.log("Tasso Inps", avvocato1.getTasseInps());
+
+const avvocato2 = new Avvocati(80000, "Daniele", "Paperino");
+console.log(
+  "Redddito annuale netto Avvocato",
+  avvocato2.getRedditoAnnuoNetto()
+);
+console.log("Tasso irpef", avvocato2.getTasseIrpef());
+console.log("Tasso Inps", avvocato2.getTasseInps());
